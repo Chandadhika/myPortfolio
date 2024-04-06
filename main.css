@@ -40,8 +40,9 @@ p {
 span {
     font-size: 1.5rem;
     color: rgb(246, 246, 250);
-    text-shadow: 5px 3px 3px rgb(73, 2, 62);
+    text-shadow: 5px 3px 3px rgb(6, 4, 6);
     text-orientation: sideways-right;
+    background-color: rgb(85, 85, 239);
 }
 
 footer {
