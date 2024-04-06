@@ -24,6 +24,10 @@ header{
     text-shadow: 3px 1px rgb(67, 44, 44);
 }
 
+nav {
+    float: right;
+}
+
 .headers ul:hover {
     color: rgb(203, 16, 94);
     pointer-events: visible;
