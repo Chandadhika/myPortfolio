@@ -61,10 +61,13 @@ p {
    
 }
 
-/* p::first-line {
-    text-indent: 3rem;
-} */
-
+ul li {
+    display: inline;
+}
+ul li:hover {
+    color: rgb(247, 73, 10);
+    background-color: rgb(245, 221, 7);
+}
 span {
     font-size: 1.5rem;
     color: rgb(246, 246, 250);
