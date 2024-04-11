@@ -6,6 +6,9 @@
 
 body {
     background-color: beige;
+    position: relative;
+    width: 1280px;
+    max-height: auto;
 }
 
 header{
@@ -48,10 +51,19 @@ figcaption {
 }
 
 p {
-   display: grid;
-   text-align: right;
+   /* display: grid; */
+   text-align: left;
+   position: absolute;
+   top: 100px;
+   left: 400px;
+   padding: 55px;
+   text-indent: 
    
 }
+
+/* p::first-line {
+    text-indent: 3rem;
+} */
 
 span {
     font-size: 1.5rem;
@@ -60,6 +72,8 @@ span {
     text-orientation: sideways-right;
     background-color: rgb(85, 85, 239);
     text-align: center;
+    padding-inline: 55px;
+    
 }
 
 footer {
@@ -68,4 +82,5 @@ footer {
     text-align: end;
     font-size: 1.5rem;
     font-style: oblique;
+    top: 550px;
 }
