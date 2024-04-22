@@ -78,13 +78,12 @@ footer {
     font-style: oblique;
     display: inline-block;
     flex-direction: column;
-    width: 100%; */
+    width: 100%; 
 }
 footer p:first-child{
     color: red;
     display: inline-block;
     text-align: left;
-    float: left;
     padding: 10px;
     padding-left: 50px;
 }
@@ -92,7 +91,6 @@ footer p:last-child{
     color: rgb(239, 247, 12);
     display: inline-block;
     text-align: right;
-    float: right;
     padding: 10px;
     padding-right: 50px;
 }
