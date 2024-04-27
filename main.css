@@ -126,6 +126,36 @@ header nav ul li a:hover {
     /* justify-content: center; */
 }
 
+.public {
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.public h2 {
+    font-size: 30px;
+    color: #620202;
+    text-shadow: 2px 10px 10px rgb(46, 40, 40);
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+#email a, 
+#github a, 
+#portfolio a {
+    color: rgb(4, 45, 210);
+    font-size: 25px;
+    text-decoration: none;
+    text-shadow: 2px 5px 7px #e40202;
+    font-weight: bold;
+}
+
+
+
 footer {
     color: white;
     background-color: rgb(85, 85, 239);
@@ -139,7 +169,7 @@ footer {
 footer p:first-child{
     color: red;
     display: inline-block;
-    text-align: left;
+    float: left;
     padding: 10px;
     padding-left: 50px;
 }
@@ -151,4 +181,5 @@ footer p:last-child{
     left: 45px;
     padding: 10px;
     padding-right: 50px;
+    float: right;
 }
