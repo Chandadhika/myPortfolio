@@ -169,7 +169,7 @@ footer {
 footer p:first-child{
     color: red;
     display: inline-block;
-    float: left;
+    /* float: left; */
     padding: 10px;
     padding-left: 50px;
 }
@@ -178,8 +178,7 @@ footer p:last-child{
     color: rgb(239, 247, 12);
     display: inline-block;
     text-align: right;
-    left: 45px;
     padding: 10px;
     padding-right: 50px;
-    float: right;
+    width: 75%;
 }
