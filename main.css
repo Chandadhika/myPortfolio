@@ -126,6 +126,45 @@ header nav ul li a:hover {
     /* justify-content: center; */
 }
 
+.works {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: flex-start;
+}
+.works h2 {
+    font-size: 35px;
+    color: #020ae4;
+    text-shadow: 2px 3px 7px #620202;
+    margin: 35px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: rgb(241, 22, 22);
+}
+
+.run {
+    display: inline-block;
+    text-align: center;
+}
+/* yuuiyioupo[ */
+.run-buddy {
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+} 
+.run-buddy span {
+    text-align: center;
+    color: #e40202;
+}
+
+.jpeg {
+    border: 5px solid burlywood;
+    border-radius: 25px;
+}
+
 .public {
     margin-bottom: 20px;
     padding: 30px;
