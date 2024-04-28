@@ -246,7 +246,7 @@ footer p:first-child{
 
 footer p:last-child{
     color: rgb(239, 247, 12);
-    display: inline-block;
+    display: inline;
     float: right;
     padding: 10px;
     padding-right: 50px;
