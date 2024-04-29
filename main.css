@@ -126,7 +126,7 @@ header nav ul li a:hover {
     /* justify-content: center; */
 }
 
-.works {
+main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -143,17 +143,39 @@ header nav ul li a:hover {
     text-decoration-color: rgb(241, 22, 22);
 }
 
-.port {
+.assignment {
+    display: inline-block;
+    text-align: center;
+}
+.assignments span {
+    text-align: center;
+    color: #b103ba;
+    font-style: italic;
+    font-size: 27px;
+    font-weight: bold;
+    display: block;
+}
+.assignment img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    width: 700px; 
+    height: 300px;
+    margin: 30px;
 }
 
-.works img {
+.port img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     width: 200px;
     height: 200px;
+    margin: 25px;
+    text-align: center;
 }
+
 
 .run {
     display: inline-block;
@@ -251,4 +273,21 @@ footer p:last-child{
     padding: 10px;
     padding-right: 50px;
     text-shadow: 2px 2px 0 rgb(241, 22, 22);
+}
+
+@media screen and (max-width: 980px) {
+    header h1 {
+        color: #b103ba;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        color: #06ba03;
+    }
+}
+@media screen and (max-width: 575px) {
+    header h1 {
+        color: #030fba;
+    }
 }
