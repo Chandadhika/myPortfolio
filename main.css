@@ -69,26 +69,18 @@ header nav ul li a:hover {
     margin-bottom: 25px;
     background-image: url(icode.jpeg);
     background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    display: inline-block;
     align-items: center;
     background-position: 80%;
-
+    
 }
 
-
-.content {
-    margin-bottom: 20px;
-    padding: 30px;
-    height: 300px;
+.container {
+    justify-content: center;
     display: flex;
-    flex-wrap: wrap;
-    width: 75%;
     justify-content: space-between;
-
 }
+
 
 .content img {
     max-height: 300px;
@@ -99,40 +91,37 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     border: 10px solid rgb(248, 203, 6);
     border-radius: 35px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 } 
 
-
-.about-text h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    margin-left: 50px;
-    padding-left: 25px;
-    padding: 25px;
-    color: rgb(250, 247, 250);
-    text-shadow: 0 10px 10px rgb(3, 3, 96);
-    justify-content: center;
-    text-align: start;
-    flex-wrap: wrap;
-}
-
-.about-text p {
-    margin-left: 50px;
-    padding-left: 25px; 
-    width: 75%;
-    display: flex;
-    text-align: start;
-    flex-wrap: wrap;
+.text {
+    font-size: 15px;
+    font-style: italic;
     color: white;
-    /* justify-content: center; */
+    margin: 30px;
+    padding: 30px;
+    flex-wrap: wrap;
 }
+
+.text span {
+    margin: 25px;
+    line-height: 2.5em;
+    padding: 35px;
+    font-size: 35px;
+    color: antiquewhite;
+    text-shadow: 3px 5px 5px rgb(112, 2, 2);
+    text-decoration-line: underline;
+}
+
 
 main {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
     justify-content: center;
 }
-.works h2 {
+h2 {
     font-size: 35px;
     color: #f7f7fa;
     text-shadow: 3px 3px 7px #620202;
@@ -279,15 +268,40 @@ footer p:last-child{
     header h1 {
         color: #b103ba;
     }
+    .container{
+
+    }
+    main {
+
+    }
 }
 
 @media screen and (max-width: 768px) {
     header h1 {
         color: #06ba03;
     }
+    .container{
+        
+    }
+    main {
+
+    }
 }
 @media screen and (max-width: 575px) {
     header h1 {
         color: #030fba;
+    }
+    .container{
+        flex-direction: column;
+    }
+    main {
+        
+    }
+    .content {
+        text-align: center;
+    }
+    .content img {
+        display: inline-block;
+        margin-right: 0;
     }
 }
