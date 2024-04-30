@@ -311,4 +311,9 @@ footer p:last-child{
         width: 100%;
         margin: 30px 0;
     }
+    .public {
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 }
