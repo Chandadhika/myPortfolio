@@ -269,10 +269,10 @@ footer p:last-child{
         color: #b103ba;
     }
     .container{
-
+        width: 100%;
     }
     main {
-
+        width: 100%;
     }
 }
 
@@ -281,10 +281,10 @@ footer p:last-child{
         color: #06ba03;
     }
     .container{
-        
+        width: 100%;
     }
     main {
-
+       width: 100%;
     }
 }
 @media screen and (max-width: 575px) {
@@ -295,7 +295,7 @@ footer p:last-child{
         flex-direction: column;
     }
     main {
-        
+        width: 100%;
     }
     .content {
         text-align: center;
