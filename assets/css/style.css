@@ -10,16 +10,13 @@ body {
 
 /* header style start */
 header {
-    background-color: rgb(85, 85, 239);
+    background-color: rgb(128, 128, 192);
     padding: 20px 35px;
     color: white;
     background-position: 80%;
     display: flex;
-    justify-content: space-between;
-    background-attachment: fixed;
-    position: -webkit-sticky;
-    position: sticky;
     flex-wrap: wrap;
+    justify-content: space-between; 
 }
 
 header h1 {
@@ -31,26 +28,28 @@ header h1 {
 }
 
 header a {
+    text-decoration-line: none;
     text-decoration: none;
     color: rgb(240, 213, 6);
 }
 
 header nav {
-    margin: 7px 0;
-}
-
-header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
+    margin: 7px 0;
+    
+}
+
+header nav ul li {
+    display: inline;
+    text-align: center;
 }
 
 header nav ul li a {
     margin: 10px 15px;
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 2.5vw;
     padding: 10px 15px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -67,7 +66,7 @@ header nav ul li a:hover {
     height: 800%;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(icode.jpeg);
+    background-image: url(./assets/images/icode.jpeg);
     background-size: cover;
     display: inline-block;
     align-items: center;
@@ -84,37 +83,30 @@ header nav ul li a:hover {
 
 .content img {
     max-height: 300px;
-    display: flex;
-    margin-right: 25%;
-    justify-content: center;
+    margin: 25px;
+    padding: 25px;
     padding: 0.5px 0 0 1.5px;
-    flex-wrap: wrap;
-    border: 10px solid rgb(248, 203, 6);
+    border: 7px solid rgba(248, 6, 143, 0.335);
     border-radius: 35px;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    box-shadow: 4px 5px 5px #1e0101;
 } 
 
-.content img:hover {
-    transform: rotate(25deg);
-}
 
 .text {
-    font-size: 15px;
+    font-size: 20px;
     font-style: italic;
-    color: white;
-    margin: 30px;
-    padding: 30px;
-    flex-wrap: wrap;
+    color: rgb(19, 14, 14);
+    margin: 20px;
+    padding: 20px;
 }
 
 .text span {
-    margin: 25px;
+    margin: 15px;
     line-height: 2.5em;
-    padding: 35px;
+    padding: 15px;
     font-size: 35px;
-    color: antiquewhite;
+    font-weight: bold;
+    color: rgb(2, 39, 202);
     text-shadow: 3px 5px 5px rgb(112, 2, 2);
     text-decoration-line: underline;
 }
@@ -137,8 +129,11 @@ h2 {
 }
 
 .assignment {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    margin: 25px;
+    padding: 25px;
 }
 .assignments span {
     text-align: center;
@@ -149,27 +144,21 @@ h2 {
     display: block;
 }
 .assignment img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 700px; 
-    height: 300px;
-    margin: 30px;
-}
-
-.assignment img:hover {
-    width: 100%;
+    width: 100%; 
     height: 100%;
+    margin: 10px;
 }
 
-.port img {
+.port {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    margin: 25px;
+}
+.port img {
+    width: 300px;
+    height: 250px;
     margin: 25px;
     text-align: center;
 }
@@ -279,56 +268,3 @@ footer p:last-child{
     text-shadow: 2px 2px 0 rgb(241, 22, 22);
 }
 
-@media screen and (max-width: 980px) {
-    header h1 {
-        color: #b103ba;
-    }
-    .container{
-        width: 100%;
-    }
-    main {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    header h1 {
-        color: #06ba03;
-    }
-    .container{
-        width: 100%;
-    }
-    main {
-       width: 100%;
-    }
-}
-@media screen and (max-width: 575px) {
-    header h1 {
-        color: #030fba;
-    }
-    .container{
-        flex-direction: column;
-    }
-    main {
-        width: 100%;
-    }
-    .content {
-        text-align: center;
-    }
-    .content img {
-        display: inline-block;
-        margin-right: 0;
-    }
-    .assignment {
-        display: block;
-    }
-    .assignment img {
-        width: 100%;
-        margin: 30px 0;
-    }
-    .public {
-        height: 100%;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-}

@@ -1,0 +1,78 @@
+@media screen and (max-width: 980px) {
+    header {
+        width: 100%;
+    }
+    header h1 {
+        color: #b103ba;
+        text-align: center;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .port {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+    header h1 {
+        color: #06ba03;
+        text-align: center;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .port {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    header {
+        width: 100%;
+    }
+    header h1 {
+        color: #f2f3f9;
+        text-align: center;
+        
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .port {
+        width: 100%;
+        justify-content: center;
+    }
+    .content {
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+    }
+    /* .content img {
+        width: 100%;
+        justify-content: center;
+    } */
+    .assignment {
+        display: block;
+    }
+    .assignment img {
+        width: 100%;
+        margin: 30px 0;
+    }
+    .public {
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
