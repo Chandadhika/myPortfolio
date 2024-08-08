@@ -145,6 +145,7 @@ h2 {
     display: block;
 }
 
+
 .port {
     display: flex;
     flex-wrap: wrap;
@@ -153,8 +154,8 @@ h2 {
     margin: 25px;
 }
 .port img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin: 25px;
     text-align: center;
 }
