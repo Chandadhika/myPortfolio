@@ -49,7 +49,7 @@ header nav ul li {
 header nav ul li a {
     margin: 10px 15px;
     font-weight: lighter;
-    font-size: 2.5vw;
+    font-size: 2vw;
     padding: 10px 15px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -74,15 +74,13 @@ header nav ul li a:hover {
     
 }
 
-.container {
-    justify-content: center;
+.content {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
 }
 
-
 .content img {
-    max-height: 300px;
+    max-height: 400px;
     margin: 25px;
     padding: 25px;
     padding: 0.5px 0 0 1.5px;
@@ -92,15 +90,16 @@ header nav ul li a:hover {
 } 
 
 
-.text {
+.port .content p {
     font-size: 20px;
     font-style: italic;
     color: rgb(19, 14, 14);
-    margin: 20px;
+    margin: 10px;
+    margin-top: -40px;
     padding: 20px;
 }
 
-.text span {
+.port .content p span {
     margin: 15px;
     line-height: 2.5em;
     padding: 15px;
@@ -113,7 +112,7 @@ header nav ul li a:hover {
 
 
 main {
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -143,11 +142,6 @@ h2 {
     font-weight: bold;
     display: block;
 }
-.assignment img {
-    width: 100%; 
-    height: 100%;
-    margin: 10px;
-}
 
 .port {
     display: flex;
@@ -157,7 +151,7 @@ h2 {
     margin: 25px;
 }
 .port img {
-    width: 300px;
+    width: 250px;
     height: 250px;
     margin: 25px;
     text-align: center;
@@ -169,27 +163,9 @@ h2 {
     border: 5px solid #b103ba;
 }
 
-
 .run {
     display: inline-block;
     text-align: center;
-}
-
-.run-buddy {
-    font-size: 23px;
-    font-weight: bold;
-    text-align: center;
-    display: block;
-} 
-.run-buddy span {
-    text-align: center;
-    color: #b103ba;
-    font-style: italic;
-}
-
-.run-buddy span:hover {
-    color: aqua;
-    font-style: normal;
 }
 
 .jpeg {
@@ -215,13 +191,14 @@ h2 {
     text-decoration-line: underline;
     text-decoration-style: double;
 }
+
 #email a, 
 #github a, 
 #portfolio a {
-    color: rgb(4, 45, 210);
+    color: rgba(247, 241, 241, 0.888);
     font-size: 25px;
     text-decoration: none;
-    text-shadow: 2px 5px 7px #e40202;
+    text-shadow: 3px 5px 7px #210505;
     font-weight: bold;
 }
 
